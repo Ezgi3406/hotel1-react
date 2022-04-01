@@ -1,9 +1,12 @@
 import React from "react";
 
+import Heading from "./Heading";
+
 const Search = () => {
   return (
     <div className="search">
       <div className="page-header">
+        <Heading />
         <h4 className="text-left">Search Bookings</h4>
       </div>
       <div className="row search-wrapper">
